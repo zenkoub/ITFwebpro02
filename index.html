@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="center_align">
+        <div class="content">
+        <div class="flex-top">
+            <div>
+                <div class="flex-item-1">
+                    <div class="avatar"><img src="" id="image"></div>
+                    <div class="noti"><p>2</p></div>
+                </div>
+                <div>
+                    <p style="font-weight: 700;" id="username"> Username, Gallery</p>
+                </div>
+            </div>
+            <div class="flex-item-2">
+                <div><label>Username</label><input type="text" style="margin-left: 5px;" id="username_input" 
+                    style="margin-left: 5px;" ><button onclick="setUsername()">SET</button></div>
+                <div><label>Image URL</label><input type="text" style="margin-left: 5px;" id="image_input" 
+                    style="margin-left: 5px;"><button onclick="setImageURL()">SET</button></div>
+            </div>
+        </div>
+        <div class="gallery" style="margin-top: 40px;">
+            <div class="gallery_content" style="grid-column: span 2 / span 2;"></div>
+            <div class="gallery_content"></div>
+            <div class="gallery_content"></div>
+            <div class="gallery_content"></div>
+            <div class="gallery_content"></div>
+            <div class="gallery_content" style="grid-column: span 2 / span 2;"></div>
+            <div class="gallery_content"></div>
+            <div class="gallery_content"></div>
+            <div class="gallery_content"></div>
+            <div class="gallery_content"></div>
+            <div class="gallery_content"></div>
+        </div>
+    </div>
+
+</body>
+</html>
